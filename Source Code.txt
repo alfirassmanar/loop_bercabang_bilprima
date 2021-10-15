@@ -1,0 +1,73 @@
+/** 
+* rasss
+*/
+package loop_bercabang_angkaprima;
+import java.util.Scanner;
+/** 
+* rasss
+*/
+public class Loop_bercabang_angkaprima {
+    
+/** 
+* rasss
+*/
+    /**
+/** 
+* rasss
+*/
+     * @param args the command line arguments
+     */
+/** 
+* rasss
+*/
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int i;
+    /** 
+* rasss
+*/
+        System.out.print("inputkan : ");
+        i = input.nex/** 
+* rasss
+*/tInt();
+        int bil = 2, c = 0;
+/** 
+* rasss
+*/
+       i = i + (i + 1);
+       for(int p/** 
+* rasss
+*/ = 0; p <= i; p++ ){
+           c = 0;
+          for(int q = /** 
+* rasss
+*/2; q <= bil; q++){
+               if(bil % q == 0){
+               c++;
+           }
+          }
+/** 
+* rasss
+*/
+          
+        if(c == 1){
+            System.out.print(" "+bil);
+                if(p < i-2/** 
+* rasss
+*/){
+                    System.out.print(" ");
+                } else if(/** 
+* rasss
+*/p>5) {
+                    System.out.print(" ");
+                }
+        }
+        bil++;
+        
+          }
+       }
+        
+    }
+/** 
+* rasss
+*/
