@@ -1,73 +1,80 @@
-/** 
-* rasss
-*/
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package loop_bercabang_angkaprima;
 import java.util.Scanner;
-/** 
-* rasss
-*/
+
+/**
+ *
+ * @author alfir
+ */
 public class Loop_bercabang_angkaprima {
     
-/** 
-* rasss
-*/
+
     /**
-/** 
-* rasss
-*/
      * @param args the command line arguments
      */
-/** 
-* rasss
-*/
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int i;
-    /** 
-* rasss
-*/
-        System.out.print("inputkan : ");
-        i = input.nex/** 
-* rasss
-*/tInt();
-        int bil = 2, c = 0;
-/** 
-* rasss
-*/
-       i = i + (i + 1);
-       for(int p/** 
-* rasss
-*/ = 0; p <= i; p++ ){
-           c = 0;
-          for(int q = /** 
-* rasss
-*/2; q <= bil; q++){
-               if(bil % q == 0){
-               c++;
-           }
-          }
-/** 
-* rasss
-*/
-          
-        if(c == 1){
-            System.out.print(" "+bil);
-                if(p < i-2/** 
-* rasss
-*/){
-                    System.out.print(" ");
-                } else if(/** 
-* rasss
-*/p>5) {
-                    System.out.print(" ");
-                }
-        }
-        bil++;
         
-          }
-       }
         
+//        Menggunakan FOR
+
+//        int i=1, bil = 2, c;
+//        System.out.print("inputkan : ");
+//        i = input.nextInt();
+//
+//       i = i + i;
+//       for(int p = 0; p <= i; p++ ){
+//           c = 0;
+//          for(int q = 2; q <= bil; q++){
+//               if(bil % q == 0){
+//               c++;
+//           }
+//          }
+//          
+//        if(c == 1){
+//            System.out.print(bil);
+//                if(c == 0){
+//                    System.out.print(" ");
+//                } else {
+//                    System.out.print(" ");
+//                }
+//        }
+//        bil++;
+//        
+//          }
+
+
+//Menggunakan While
+//      int p, a=1, bil=2, b=2;
+//      boolean q=true;
+//     
+//      System.out.print("Inputkan : "); 
+//      p=input.nextInt();
+//       
+//      while(a<=p){
+//          q=true;
+//         
+//          for (b=2; b<=bil/2; b++){
+//              if(bil%b==0){
+//                  q=false; break;
+//              }
+//          }
+//          if(q){
+//              if(a%10==0){
+//                  System.out.println(bil);
+//              } else {
+//                  System.out.print(bil+" ");
+//              }
+//              a++;
+//          }
+//          bil++;
+//      }
+
+
     }
-/** 
-* rasss
-*/
+}
+
